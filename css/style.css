@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+}
+/*fondo menu*/
+.header{
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 100%;
+    max-width: 1200px;
+    max-height: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;  
+}
+.menu .navLogo{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.menu .navLogo:hover{
+    transform: scale(0.5) translate(-100%, -100%);
+}
+
+/*estilo menu nav*/
+.menu .navBar{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.menu .navBar .navItem{
+margin: 0 10px;
+padding: 10px;   
+}
+
+.menu .navBar .navItem:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.menu .navBar .navLink {
+    color: rgba(0, 0, 0, 0.863);
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.menu .navBar .navLink:hover{
+    opacity: 1;
+}
+
+/*estilo botones nav*/
+.buttonmenu{
+    display: inline;
+    margin-left: 30%;
+}
+
+.charticon{
+    display: inline;
+}
+
+/*links sin subrayado*/
+a{
+    text-decoration: none;
+}
+
+/*color titulo*/
+h1{
+    color: rgb(4, 5, 5);
+    font-family: montserrat;
+}
+
+.imagenPortada{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/*estilo Titulo*/
+.hola{
+    top: 20px;
+    background: linear-gradient(90deg, white,cornflowerblue);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Signika', sans-serif;
+    font-size: 250%;
+}
+
+/* producto */
+.producto{
+    background-color: rgb(1, 3, 3);
+    color: rgb(255, 255, 255);
+}
+
+
+.hola:hover{
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+/*color de fondo*/
+html{
+background-color: rgb(224, 224, 224); 
+}
+
+/*imagen fondo body*/
+body{ 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)),
+        url("../img/grass.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%px;
+    margin: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+.flex-card img{
+    border-radius: 50%;
+    margin: auto;
+}
+
+.flex-card-1{
+    background-color: rgb(91, 94, 91);
+}
+
+.flex-card-2{
+    background-color: rgb(91, 94, 91);
+}
+
+.flex-card-3{
+    background-color: rgb(91, 94, 91);
+}
+
+.galeria{
+    width: 100%;
+    background-color: rgb(152, 155, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ProductosGaleria{
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    margin: 1px;
+    display: grid;
+    grid-template-areas: "Productos1 Productos2" 
+                         "Productos3 Productos4"
+                         "Productos5 productos6";                      
+}
+
+.Productos1{
+    height: 333px;
+    width: 500px;
+    margin: auto;
+    background-image: url(../img/yerbera1.JPG);
+}
+
+.Productos2{
+    height: 333px;
+    width: 500px;
+    margin: auto;
+    background-image: url(../img/yerbera\ 2.JPG);
+}
+
+.Productos3{
+    height: 333px;
+    width: 500px;
+    margin: auto;
+    background-image: url(../img/lona\ 1.JPG);
+}
+
+.Productos4{
+    background-image: url(../img/lona\ 2.JPG);
+    height: 333px;
+    width: 500px;
+    margin: auto;
+}
+
+.Productos5{
+    background-image: url(../img/verdu1.jpg);
+    height: 710px;
+    width: 500px;
+    margin: auto;
+}
+
+.Productos6{
+    background-image: url(../img/verdu2.jpg);
+    height: 710px;
+    width: 500px;
+    margin: auto;
+}
+
+.footer{
+    background: linear-gradient(90deg, white,cornflowerblue);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 150px;
+}
+
+.footerMenu{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+
+
+.footerMenu .footerNav{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .footerMenu .footerItem{
+    display: flex;
+    justify-content: ;
+    margin: 0 20px;
+    padding: 20px;
+}    
+
+.footerMenu .footerNav .footerLink{
+    color: rgba(0, 0, 0, 0.863);
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.footerMenu .footerNav .footerLogo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0;
+}
